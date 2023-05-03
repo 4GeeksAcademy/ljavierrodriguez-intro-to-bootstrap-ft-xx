@@ -1,0 +1,27 @@
+.box {
+    width: 500px;
+    margin: 40px auto;
+    box-shadow: 1px 3px 4px #999999;
+}
+
+.box .photo {
+    width: 100%;
+    height: auto;
+}
+
+.box .photo img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.box .icons {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.box .icons i:last-child {
+    float: right;
+}
